@@ -1,37 +1,97 @@
+body{
+   background-image: url("../img/dali.jpg");
+   background-size: cover;
+}
+img {
+  max-width:400px;
+  float: right;
+  margin: 20px;
+
+}
+#ourParagraph {
+   border-style: solid;
+   padding: 30px;
+}
+
 element.style {
 }
 .major-section {
     margin: 20px;
     padding: 10px;
-    border: solid 1px #606060;
+    border: dotted 30px #a3c2a8;
     border-radius: 5px;
-    background-color: rgba(212, 156, 144, 0.6);
+    background-color: rgba(255,255,0, 0.15);
+
 }
-user agent stylesheet
+
 nav {
     display: block;
 }
 
 element.style {
+
 }
-h2 {
-    font-size: 2.5vw;
-}
-h1, h2, h3 {
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
+p {
+    text-transform: lowercase;
+    font-size: 1.2em;
     word-spacing: 0.5em;
     font-family: sans-serif;
     padding-bottom: 0;
     margin-bottom: 0.25em;
+    color:#111530;
+    text-align: left
 }
-user agent stylesheet
+
+    span {
+      background-color: #fff8c5;
+
+
+
+
+
+
+
+}
+
 h2 {
     display: block;
-    font-size: 1.5em;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-family: century gothic;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    letter-spacing: 0.3em;
+    word-spacing: 0.5em;
+    color: #5f8d84
+}
+
+h1 {
+    display: block;
+    text-transform: uppercase;
+    font-size: 3.1em;
+    font-family: century gothic;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    word-spacing: 0.5em;
+    color: #e6a20e
+}
+
+
+.button {
+  background-color: #fff8c5;
+  border: dotted 20px #8cba95;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
