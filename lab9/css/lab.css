@@ -1,0 +1,78 @@
+body{
+   background-image: url("../img/chrimas.jpg");
+   background-size: cover;
+}
+img {
+  max-width:500px;
+  float: right;
+  margin: 20px;
+
+
+
+}
+#ourParagraph {
+   border-style: dashed;
+   padding: 20px;
+}
+
+element.style {
+}
+.major-section {
+    margin: 40px 10px 0 10px;
+    padding: 10px;
+    border-top: double 60px #f1c82b;
+    border-bottom: double 60px #f1c82b;
+    border-left: dashed 40px #e2b138;
+    border-right: dashed 40px #e2b138;
+    border-radius: 60px;
+    background-color: rgba(238, 130, 238, 0.20);
+
+  }
+
+    nav {
+        display: block;
+    }
+
+    element.style {
+
+    }
+    p {
+        text-transform: lowercase;
+        font-size: 1.5em;
+        word-spacing: 0.5em;
+        font-family: century gothic;
+        padding-bottom: 0;
+        margin-bottom: 0.25em;
+        color:#dfe7fa;
+        text-align: left
+
+
+
+    }
+
+    h1, h2 {
+        display: block;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        font-family: sans-serif;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        letter-spacing: 0.3em;
+        word-spacing: 0.5em;
+        color: #e6a20e
+    }
+
+    .button {
+      background-color: #50334a;
+      border: double 20px #f1c82b;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }

@@ -1,0 +1,65 @@
+body{
+   background-image: url("../img/yuh.png");
+   background-size: cover;
+
+}
+img {
+  float: left;
+  margin: 20px;
+  max-width: 300px;
+	width: 100%;
+
+
+
+
+
+}
+p {
+   text-align: center
+}
+#ourParagraph {
+   border-style: solid;
+   padding: 50px;
+}
+
+element.style {
+}
+.major-section {
+    margin: 50px;
+    padding: 10px;
+    border-top: dashed 20px #404495;
+    border-bottom: dashed 20px #404495;
+    border-left: double 40px #1634c9;
+    border-right: double 40px #1634c9;
+    border-radius: 5px;
+    background-color: rgba(166, 166, 255, 0.8);
+}
+
+nav {
+    display: block;
+}
+
+element.style {
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    word-spacing: 0.5em;
+    font-family: century gothic;
+    padding-bottom: 0;
+    margin-bottom: 0.25em;
+    color:#343483;
+
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.8em;
+    word-spacing: 0.8em;
+    font-family: century gothic;
+    padding-bottom: 0;
+    margin-bottom: 0.25em;
+    color:#1533c3;
+
+
+
+}
