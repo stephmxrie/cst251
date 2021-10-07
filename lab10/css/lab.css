@@ -1,0 +1,80 @@
+body{
+   background-image: url("../img/pink.jpg");
+   background-size: cover;
+
+ }
+
+element.style {
+   }
+   .major-section {
+       margin: 20px;
+       padding: 25px;
+       border-top: solid 1px #000000;
+       border-bottom: solid 1px #000000;
+       border-left: dashed 1px #000000;
+       border-right: dashed 1px #000000;
+       border-radius: 50px;
+       background-color: rgba(238, 130, 238, 0.4);
+
+ }
+      div.image {
+          max-width:100%;
+          float: right;
+          margin: 20px;
+
+  }
+     img {
+       max-width:100%;
+       float: left;
+       margin: 20px;
+}
+
+
+
+
+nav {
+    display: block;
+}
+
+body {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Sarina', cursive;
+}
+
+
+    p {
+        text-transform: lowercase;
+        font-size: 1.2em;
+        word-spacing: 0.5em;
+        font-family: times new roman;
+        padding-bottom: 0;
+        margin-bottom: 0.25em;
+        color:#311640;
+        text-align: center
+
+}
+    h2 {
+      text-decoration: underline overline wavy #a5579f;
+      font-family: Sarina;
+      display: block;
+      text-transform: lowercase;
+      font-size: 2.6em;
+      text-shadow: 0 0 2px #fff;
+      font-weight: bold;
+      letter-spacing: 0.01em;
+      word-spacing: 0.1em;
+      color: #fa7658
+}
+
+    h1  {
+        font-family: Oleo Script Swash Caps;
+        display: block;
+        text-transform: lowercase;
+        font-size: 2.6em;
+        text-shadow: 0 0 3px #000;
+        font-weight: bold;
+        letter-spacing: 0.01em;
+        word-spacing: 0.1em;
+        color: #eea8ca
+
+    }
