@@ -1,3 +1,26 @@
 html, body {
   background-image: url("../img/bg.png");
   background-size: cover;
+
+}
+#container {
+position: relative;
+width: 100vw;
+height: 100vh;
+border:5px dashed #ffffff;
+
+}
+#title-box {
+text-align: center;
+font-size: 120px;
+letter-spacing: -10px;
+font-family: "times new roman", serif;
+line-height: 65%;
+word-spacing: 20px;
+border:5px dashed #ffffff;
+}
+
+#help {
+float: right;
+  width:62%;
+}
