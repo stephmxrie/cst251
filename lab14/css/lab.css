@@ -7,20 +7,53 @@ html, body {
 position: relative;
 width: 100vw;
 height: 100vh;
-border:5px dashed #ffffff;
+font-family: "proxima-nova", sans-serif;
+color: #000;
+
 
 }
-#title-box {
+#spotify {
+
+position: absolute;
+top: 0;
+left: 0;
+text-align: left;
+
+
+
+}
+#OOO {
+font-size: 80px;
+font-family: "proxima-nova", sans-serif;
+border-collapse: collapse;
 text-align: center;
-font-size: 120px;
-letter-spacing: -10px;
-font-family: "times new roman", serif;
-line-height: 65%;
-word-spacing: 20px;
-border:5px dashed #ffffff;
+color: #ffd7a8;
 }
 
-#help {
-float: right;
-  width:62%;
+
+.center {
+margin-left: auto;
+margin-right: auto;
+
 }
+
+#text {
+text-align:center;
+font-family: "proxima-nova", sans-serif;
+line height: 3.5em;
+padding-bottom: 20px;
+
+}
+
+button {
+font-family: "proxima-nova", sans-serif;
+font-style: bold;
+background-color: transparent;
+background-repeat: no-repeat;
+border: solid 1px #000000;
+padding: 12px 55px;
+border-radius: 30px;
+cursor: pointer;
+overflow: hidden;
+outline: none;
+  }
