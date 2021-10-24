@@ -9,7 +9,6 @@ width: 100vw;
 height: 100vh;
 font-family: "proxima-nova", sans-serif;
 color: #000;
-line height: -500px;
 
 
 
@@ -38,8 +37,6 @@ font-size: 230px;
 word-spacing: -20px;
 
 }
-
-
 
 
 .center {
@@ -77,4 +74,11 @@ border-radius: 30px;
 cursor: pointer;
 overflow: hidden;
 outline: none;
+  }
+
+iframe#fake {
+      width: 800px;
+      height: 500px;
+      resize: both;
+      overflow: hidden;
   }
