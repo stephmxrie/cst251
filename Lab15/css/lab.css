@@ -23,8 +23,14 @@ h1, h2 {
 word-spacing: 10px;
 color:#be894e;
 text-shadow: 0 0 5px #fe923a;
-font-size: 35px;
+font-size: 40px;
+font-family: 'Norican', cursive;
 
+}
+span.color {
+    color: #f98516;
+    font-style: italic;
+    word-spacing:5px;
 
 }
 img {
