@@ -1,0 +1,14 @@
+html, body {
+  background-image:   
+  linear-gradient(to right, #acc756, #323d10);
+  background-size: cover;
+  box-shadow: 3px 3px 5px grey;
+
+}
+#container {
+position: relative;
+width: 100vw;
+height: 100vh;
+font-family: "proxima-nova", sans-serif;
+color: #000;
+text-shadow: 0 0 5px black;

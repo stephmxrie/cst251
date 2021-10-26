@@ -1,0 +1,84 @@
+html, body {
+  background-image: url("../img/bg.png");
+  background-size: cover;
+
+}
+#container {
+position: relative;
+width: 100vw;
+height: 100vh;
+font-family: "proxima-nova", sans-serif;
+color: #000;
+
+
+
+}
+#spotify {
+position: absolute;
+top: 0;
+left: 0;
+text-align: left;
+
+
+
+
+}
+#OOO {
+font-size: 80px;
+font-family: "proxima-nova", sans-serif;
+word-spacing: -5px;
+border-collapse: separate;
+text-align: center;
+color: #fcc8ba;
+}
+
+#space {
+font-size: 230px;
+word-spacing: -20px;
+
+}
+
+
+.center {
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#text {
+text-align:center;
+font-family: "proxima-nova", sans-serif;
+line height: 3.5em;
+padding-bottom: 20px;
+
+}
+
+
+#end {
+text-align:center;
+font-family: "proxima-nova", sans-serif;
+line height: 3.5em;
+padding-top: 80px;
+
+
+}
+
+button {
+font-family: "proxima-nova", sans-serif;
+font-style: bold;
+background-color: transparent;
+background-repeat: no-repeat;
+border: solid 1px #000000;
+padding: 12px 55px;
+border-radius: 30px;
+cursor: pointer;
+overflow: hidden;
+outline: none;
+  }
+
+  iframe#fake {
+      width: 800px;
+      height: 500px;
+      resize: both;
+      overflow: hidden;
+  }
