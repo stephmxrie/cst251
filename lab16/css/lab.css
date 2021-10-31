@@ -48,6 +48,15 @@ font-family: 'Norican', cursive;
         height: 200px;
         background: #c8dfd6;
         transition: width 2s;
+        animation-name: example;
+        animation-duration: 10s;
+}
+
+@keyframes example {
+0%   {background-color: red;}
+25%  {background-color: yellow;}
+50%  {background-color: blue;}
+100% {background-color: green;}
       }
 
       .div3:hover {
