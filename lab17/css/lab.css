@@ -1,0 +1,63 @@
+html, body {
+    background-image: url("../img/borderqueen.png"), url("../img/jump.jpg");
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+
+
+}
+#container {
+display: inline-block;
+margin: 20px;
+padding: 50px;
+background-color:rgba(166, 166, 255, 0.5);
+font-family: "times new roman", sans-serif;
+word-spacing: 5px;
+line-height:130%;
+font-size:17px;
+}
+
+.columnqueen {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 3px solid #6b9543;
+  }
+
+h2 {
+  column-span: all;
+
+
+}
+
+h2, h3 {
+color: #1d693f;
+font-family: 'Norican', cursive;
+}
+.div2 {
+    width: 100px;
+    height: 100px;
+    background: #c8dfd6;
+    transition: width 2s;
+  }
+
+  .div2:hover {
+    width: 300px;
+}
+  .div3 {
+        width: 200px;
+        height: 200px;
+        background: #c8dfd6;
+        transition: width 2s;
+        animation-name: example;
+        animation-duration: 10s;
+}
+
+@keyframes example {
+0%   {background-color: red;}
+25%  {background-color: yellow;}
+50%  {background-color: blue;}
+100% {background-color: green;}
+      }
+
+      .div3:hover {
+        width: 500px;
