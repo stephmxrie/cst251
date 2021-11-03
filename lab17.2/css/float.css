@@ -9,8 +9,20 @@ html, body {
   padding: 10px;
   background-color: #f6f6f6;
   text-align: center;
-}
 
+}
+h1, h2 {
+  text-decoration: underline overline wavy #b1ded7;
+  font-family: century gothic;
+  display: block;
+  text-transform: lowercase;
+  font-size: 2.6em;
+  text-shadow: 0 0 2px #fff;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  word-spacing: 0.1em;
+  color: #b578a9
+}
 
 nav {
      position: sticky;
