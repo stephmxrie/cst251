@@ -75,7 +75,7 @@ body {
      position: sticky;
      top: 0;
      background-color: #c6e6df;
-     border: dotted 25px #9df4e1;
+     border: double 10px #9df4e1;
      color: #656564;
      text-align: center;
    }
