@@ -20,7 +20,7 @@ span.color {
 
 .flex-container > div {
   background-color:rgba(55, 19, 144, 0.8);
-  width: 300px;
+  width: 500px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
@@ -75,13 +75,12 @@ font-size: 12px;
      }
 
 
-  @media screen and (max-width:800px) {
+  @media screen and (max-width:600px) {
     .left , .main, .right {
-
-    width:100%;
-  .left, .right {
-    float: left;
-    width: 20%;
+      width:100%;
+      .left, .right {
+        float: left;
+        width: 20%;
   }
   .main {
     float: left;
