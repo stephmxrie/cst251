@@ -76,19 +76,22 @@ font-size: 12px;
 
 
 @media screen and (max-width: 600px) {
-  #content {
-  border:;
-  background-color: b
+  @media screen and (max-width:800px) {
+    .left , .main, .right {
+
+      width:100%;
+  .left, .right {
+    float: left;
+    width: 20%;
   }
-  body {
-  background-color:ds;
+  .main {
+    float: left;
+    width: 60%;
+  }
+  .sidebar img {
+    max-width: 100%;
+    height: auto;
   }
 
-}
-@media print {
-  #content {
-    display: none;
-}
-body {
+    }
   }
-}
