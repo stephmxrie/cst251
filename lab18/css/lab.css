@@ -76,6 +76,10 @@ font-size: 12px;
 
 
   @media screen and (max-width:600px) {
+    .header{width: 16.66%;}
+    .main {width: 33.33%;}
+
+  }
     .left , .main, .right {
       width:100%;
       .left, .right {
