@@ -76,7 +76,7 @@ font-size: 12px;
 
 
   @media screen and (max-width:600px) {
-    .header{width: 16.66%;}
+    .header{width: 100%;}
     .main {width: 33.33%;}
 
   }
