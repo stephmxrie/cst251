@@ -75,11 +75,10 @@ font-size: 12px;
      }
 
 
-@media screen and (max-width: 600px) {
   @media screen and (max-width:800px) {
     .left , .main, .right {
 
-      width:100%;
+    width:100%;
   .left, .right {
     float: left;
     width: 20%;
@@ -88,7 +87,7 @@ font-size: 12px;
     float: left;
     width: 60%;
   }
-  .sidebar img {
+  . img {
     max-width: 100%;
     height: auto;
   }
