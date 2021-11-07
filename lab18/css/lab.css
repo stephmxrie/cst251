@@ -19,8 +19,9 @@ span.color {
 }
 
 .flex-container > div {
+  flex-wrap: wrap;
   background-color:rgba(55, 19, 144, 0.8);
-  width: 500px;
+  width: 300px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
@@ -78,6 +79,7 @@ font-size: 12px;
   @media screen and (max-width:600px) {
     .header{width: 100%;}
     .main {width: 33.33%;}
+    .div {width: 33.33}
 
   }
     .left , .main, .right {
