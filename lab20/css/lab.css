@@ -1,0 +1,98 @@
+html, body {
+  background-image:
+  radial-gradient(white, grey, black);
+}
+
+.main {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+h1, h2 {
+  text-decoration: underline overline wavy grey;
+  font-family: century gothic;
+  display: block;
+  text-transform: lowercase;
+  font-size: 2.6em;
+  text-shadow: 0 0 2px #fff;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  word-spacing: 0.1em;
+  color: #000
+}
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: century gothic;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.column {
+  flex: 50%;
+  max-width: 40%;
+  padding: 0 6px;
+
+}
+
+.column img {
+  margin-top: 12px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #fff;
+   border: dotted 5px #000;
+   text-align: center;
+
+}
+
+   nav {
+     position: sticky;
+     top: 0;
+     background-color: #fff;
+     border: double 10px #0;
+     color: grey;
+     text-align: center;
+   }
+
+   nav a {
+     color: grey;
+   }
